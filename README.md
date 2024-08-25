@@ -4,17 +4,20 @@ The data is from the IMDb website, a website that has a record of every movie or
 
 # 🛠 Used Tools
 
-I used Power BI to analyze and visualize the data. I imported the data with Power BI through the get data from the web feature. We can use it from (Home >> Get Data >> Web). This feature allows you to import data from a web page.
+I used Power BI to analyze and visualize the data. I imported the data with Power BI through the get data from the web feature. We can use it from (Home >> Get Data >> Web). This feature allows you to import data from a web page. <br>
+
 ![import data from a web page feature](https://github.com/user-attachments/assets/7fd9ede5-88d5-461a-bb10-46f964611e8f)
 
 # 📅 The data in Power BI
 
 I did the ETL process through Power Query. We can see the final form of the data in the Table View tab.
+
 ![the data in table view](https://github.com/user-attachments/assets/c28754d1-0124-4129-9309-e7e169de3ab0)
 
 # 📊 Dashboard
 
-As we can see, the dashboard view is eye-friendly and very related to the IMDb website.
+As we can see, the dashboard view is eye-friendly and very related to the IMDb website. You can download the dashboard from [here](https://github.com/mohamedfa/Top-250-Movies-by-IMDb/blob/main/Top%20250%20Movies%20IMDb.pbix) and try it on your machine.
+
 ![dashboard](https://github.com/user-attachments/assets/7857c775-e8dd-4515-9ab5-1f94746e6422)
 
 # 🧮 Some Measures
@@ -39,15 +42,19 @@ It seems that the 2000s have the highest number of top movies. But on the year l
 # 🗃 Movies Certifications
 
 I used a **Treemap** to visualize this kind of categorical data. We can use a **Pie Chart** but a **Treemap** seems clearer with more than 4 types of certifications. I found out that the most common certification is **R** with 103 movies.
+
 ![image](https://github.com/user-attachments/assets/3f273aca-dd95-4a4b-8213-ba4056637231)
 
 # 🔎 Movies with Details
 
 I used a **Table** to show movies with their details. <br>
+
 ![image](https://github.com/user-attachments/assets/9484be55-8fca-433c-aaee-76996fdf7d22)
 
 Let's try to select a specific year from the **Bar Chart** of **Count of Movies By Year** to see the year movies details.
+
 ![image](https://github.com/user-attachments/assets/4f1fea32-9487-4497-af3d-a64a694a7f5d)
+
 As we can see, I selected the 2004 year for example. The **Table** shows the movies that were released this year with their details. The top movie is **Eternal Sunshine of the Spotless Mind**, It has **R** certification and got **8.30/10** Rate. <br>
 From the dashboard measures, the 2004 year has 7 of the top 250 movies, the minimum rating is 8, the average rating is 8.14 and the maximum rating is 8.30. 3 of the top 7 movies that year have **R** certification, 2 of the 7 have **PG-13** certification and 2 of the 7 have **PG** certification.
 
